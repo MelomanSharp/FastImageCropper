@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Shorthand.ImageSharp.AVIF/0.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.ImageSharp": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Shorthand.ImageSharp.AVIF.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Shorthand.ImageSharp.AVIF.dll": {
+            "related": ".pdb"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/native/linux/avifenc": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "native/linux/avifenc"
+          },
+          "contentFiles/any/netstandard2.0/native/win-x64/avifenc.exe": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "native/win-x64/avifenc.exe"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shorthand.ImageSharp.AVIF/0.1.0": {
+      "sha512": "JjXvg/OXhO+GLeO2svmrgaiCcc5ek3WrzaW8W0kQWec2HZ6u6FXPa9xTIlU2RMG103BBjfzYrKsylfIWo3+9xw==",
+      "type": "package",
+      "path": "shorthand.imagesharp.avif/0.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/native/linux/avifenc",
+        "content/native/win-x64/avifenc.exe",
+        "contentFiles/any/netstandard2.0/native/linux/avifenc",
+        "contentFiles/any/netstandard2.0/native/win-x64/avifenc.exe",
+        "lib/netstandard2.0/Shorthand.ImageSharp.AVIF.dll",
+        "lib/netstandard2.0/Shorthand.ImageSharp.AVIF.pdb",
+        "shorthand.imagesharp.avif.0.1.0.nupkg.sha512",
+        "shorthand.imagesharp.avif.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp/3.1.5": {
+      "sha512": "lNtlq7dSI/QEbYey+A0xn48z5w4XHSffF8222cC4F4YwTXfEImuiBavQcWjr49LThT/pRmtWJRcqA/PlL+eJ6g==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.5.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Shorthand.ImageSharp.AVIF >= 0.1.0",
+      "SixLabors.ImageSharp >= 3.1.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\12\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\12\\source\\repos\\FastImageCropper\\FastImageCropper\\FastImageCropper.csproj",
+      "projectName": "FastImageCropper",
+      "projectPath": "C:\\Users\\12\\source\\repos\\FastImageCropper\\FastImageCropper\\FastImageCropper.csproj",
+      "packagesPath": "C:\\Users\\12\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\12\\source\\repos\\FastImageCropper\\FastImageCropper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Shorthand.ImageSharp.AVIF": {
+            "target": "Package",
+            "version": "[0.1.0, )"
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.1.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

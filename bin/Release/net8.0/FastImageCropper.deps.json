@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FastImageCropper/1.0.0": {
+        "dependencies": {
+          "Shorthand.ImageSharp.AVIF": "0.1.0",
+          "SixLabors.ImageSharp": "3.1.5"
+        },
+        "runtime": {
+          "FastImageCropper.dll": {}
+        }
+      },
+      "Shorthand.ImageSharp.AVIF/0.1.0": {
+        "dependencies": {
+          "SixLabors.ImageSharp": "3.1.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Shorthand.ImageSharp.AVIF.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.5": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FastImageCropper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shorthand.ImageSharp.AVIF/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JjXvg/OXhO+GLeO2svmrgaiCcc5ek3WrzaW8W0kQWec2HZ6u6FXPa9xTIlU2RMG103BBjfzYrKsylfIWo3+9xw==",
+      "path": "shorthand.imagesharp.avif/0.1.0",
+      "hashPath": "shorthand.imagesharp.avif.0.1.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lNtlq7dSI/QEbYey+A0xn48z5w4XHSffF8222cC4F4YwTXfEImuiBavQcWjr49LThT/pRmtWJRcqA/PlL+eJ6g==",
+      "path": "sixlabors.imagesharp/3.1.5",
+      "hashPath": "sixlabors.imagesharp.3.1.5.nupkg.sha512"
+    }
+  }
+}

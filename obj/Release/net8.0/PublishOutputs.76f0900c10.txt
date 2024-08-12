@@ -1,0 +1,9 @@
+C:\Users\12\Desktop\FastImageCropper\FastImageCropper.exe
+C:\Users\12\Desktop\FastImageCropper\native\linux\avifenc
+C:\Users\12\Desktop\FastImageCropper\native\win-x64\avifenc.exe
+C:\Users\12\Desktop\FastImageCropper\FastImageCropper.dll
+C:\Users\12\Desktop\FastImageCropper\FastImageCropper.deps.json
+C:\Users\12\Desktop\FastImageCropper\FastImageCropper.runtimeconfig.json
+C:\Users\12\Desktop\FastImageCropper\FastImageCropper.pdb
+C:\Users\12\Desktop\FastImageCropper\Shorthand.ImageSharp.AVIF.dll
+C:\Users\12\Desktop\FastImageCropper\SixLabors.ImageSharp.dll
